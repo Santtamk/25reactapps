@@ -2,6 +2,7 @@
 import './App.css';
 import Accordion from './Components/Accordian';
 import RandomColor from './Components/Random-color';
+import StopWatch from './Components/Stopwatch';
 import StarRating from './Components/star-rating';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 
       {/* Star-rating Component */}
       <StarRating  noOfStars={8}/>
+      <StopWatch />
 
     </div>
   );
