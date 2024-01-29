@@ -15,6 +15,7 @@ const StopWatch = () => {
       setStart(true);
       intervalId = interval;
     };
+    
     if (start) {
       startTimer();
     } else {
