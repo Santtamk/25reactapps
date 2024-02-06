@@ -4,6 +4,7 @@ import Accordion from './Components/Accordian';
 import RandomColor from './Components/Random-color';
 import StopWatch from './Components/Stopwatch';
 import TODoList from './Components/ToDoWithDelete';
+import Clock from './Components/clock';
 import StarRating from './Components/star-rating';
 
 function App() {
@@ -17,10 +18,10 @@ function App() {
       {/* <RandomColor /> */}
 
       {/* Star-rating Component */}
-      <StarRating  noOfStars={8}/>
+      {/* <StarRating  noOfStars={8}/>
       <StopWatch />
-      <TODoList />
-
+      <TODoList /> */}
+      <Clock />
     </div>
   );
 }
